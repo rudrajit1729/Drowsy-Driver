@@ -1,6 +1,6 @@
-# Drowsiness and Yawn detection with voice alert using Dlib
+# Drowsiness & Yawn detection
 
-Simple code in python to detect Drowsiness and Yawn and alert the user using Dlib.
+Drowsiness and Yawn detection to alert drivers.
 
 ## Dependencies
 
@@ -39,9 +39,9 @@ Install dlib(CPP package) --> `conda install -c conda-forge dlib`
 python main.py --webcam 0	//For external webcam, use the webcam number accordingly
 ```
 
-## Setups
+## Settings
 
-Change the threshold values according to your need
+Change the threshold values according to distance from camera
 ```
 EYE_AR_THRESH = 0.3
 EYE_AR_CONSEC_FRAMES = 30
