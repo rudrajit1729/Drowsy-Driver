@@ -17,21 +17,15 @@ Drowsiness and Yawn detection to alert drivers.
 
 ## Setup
 
-Create a virtual environment using 
+- Anaconda installation(Ignore if already installed): [Click Here](https://docs.anaconda.com/anaconda/install/)
 
-`conda create -n virenv`
+- Proceed to terminal and create a virtual environment: `conda create -n virenv`
 
-Anaconda installation: [Click Here](https://docs.anaconda.com/anaconda/install/)
+- Activate virtual environment: `conda activate virenv`
 
-Activate virtual environment:
+- Install dependencies: `pip install -r requirements.txt`
 
-`conda activate virenv`
-
-Install dependencies
-
-`pip install -r requirements.txt`
-
-Install dlib(CPP package) --> `conda install -c conda-forge dlib`
+- Install dlib(CPP package): `conda install -c conda-forge dlib`
 
 ## Run 
 
